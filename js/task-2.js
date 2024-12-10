@@ -12,17 +12,8 @@ class Storage {
   }
 
   removeItem(value){
-    const newArray = [];
 
-    for(let i = 0; i < this.#items.length; i += 1) {
-      if (this.#items[i]===value) {}  
-        else  { newArray.push(this.#items[i])        }
-     }
-
-     this.#items=newArray;
-    return ;
-
-     
+    return this.#items.filter(item => item !=  value);   
   }
 }
 

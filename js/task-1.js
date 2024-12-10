@@ -1,3 +1,4 @@
+console.log("task-1");
 const customer = {
   username: "Mango",
   balance: 24000,

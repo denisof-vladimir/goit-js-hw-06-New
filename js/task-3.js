@@ -1,3 +1,4 @@
+console.log("task-3");
 class StringBuilder {
   #value;
 constructor(params) {
