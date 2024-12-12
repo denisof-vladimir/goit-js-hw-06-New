@@ -12,8 +12,9 @@ class Storage {
   }
 
   removeItem(value){
-
-    return this.#items.filter(item => item !=  value);   
+    const newArrya=this.#items.filter(item => item !=  value); 
+    this.#items = newArrya;
+    return this.#items;   
   }
 }
 
